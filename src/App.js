@@ -3,12 +3,15 @@ import React from "react";
 function App() {
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>AI Health & Wellness App</h1>
+      <h1 style={styles.title}>Welcome to AI Health App</h1>
       <p style={styles.description}>
-        Transform your health with AI-powered food analysis, personalized nutrition, 
-        and real-time ingredient insights.
+        Your personalized AI-driven health assistant. Get real-time food 
+        assessment, ingredient analysis, and health recommendations instantly.
       </p>
-      <button style={styles.button}>Get Started</button>
+      <div style={styles.buttonContainer}>
+        <button style={styles.button}>Explore Features</button>
+        <button style={styles.buttonAlt}>Get Started</button>
+      </div>
     </div>
   );
 }
@@ -16,28 +19,45 @@ function App() {
 const styles = {
   container: {
     textAlign: "center",
-    padding: "50px",
+    padding: "100px 20px",
     fontFamily: "Arial, sans-serif",
-    backgroundColor: "#121212",
+    background: "linear-gradient(135deg, #1D3557, #457B9D)",
     color: "#ffffff",
     height: "100vh",
   },
   title: {
-    fontSize: "2.5em",
-    marginBottom: "10px",
+    fontSize: "3em",
+    fontWeight: "bold",
+    marginBottom: "15px",
   },
   description: {
     fontSize: "1.2em",
-    marginBottom: "20px",
+    marginBottom: "25px",
+  },
+  buttonContainer: {
+    display: "flex",
+    justifyContent: "center",
+    gap: "15px",
   },
   button: {
-    backgroundColor: "#00C896",
+    backgroundColor: "#E63946",
     color: "white",
-    padding: "10px 20px",
-    fontSize: "1.2em",
+    padding: "12px 25px",
+    fontSize: "1.1em",
     border: "none",
     borderRadius: "5px",
     cursor: "pointer",
+    transition: "0.3s",
+  },
+  buttonAlt: {
+    backgroundColor: "#F1FAEE",
+    color: "#1D3557",
+    padding: "12px 25px",
+    fontSize: "1.1em",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+    transition: "0.3s",
   },
 };
 
