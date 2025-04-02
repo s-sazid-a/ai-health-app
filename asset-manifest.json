@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ai-health-app/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/ai-health-app/static/js/main.bf9fdce2.chunk.js",
+    "main.js.map": "/ai-health-app/static/js/main.bf9fdce2.chunk.js.map",
+    "runtime~main.js": "/ai-health-app/static/js/runtime~main.6f577584.js",
+    "runtime~main.js.map": "/ai-health-app/static/js/runtime~main.6f577584.js.map",
+    "static/js/2.9e11b540.chunk.js": "/ai-health-app/static/js/2.9e11b540.chunk.js",
+    "static/js/2.9e11b540.chunk.js.map": "/ai-health-app/static/js/2.9e11b540.chunk.js.map",
+    "static/js/3.ba8b7f13.chunk.js": "/ai-health-app/static/js/3.ba8b7f13.chunk.js",
+    "static/js/3.ba8b7f13.chunk.js.map": "/ai-health-app/static/js/3.ba8b7f13.chunk.js.map",
+    "index.html": "/ai-health-app/index.html",
+    "precache-manifest.4dd7e150c4f1a81fbdd9ee2836dce4e6.js": "/ai-health-app/precache-manifest.4dd7e150c4f1a81fbdd9ee2836dce4e6.js",
+    "service-worker.js": "/ai-health-app/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/ai-health-app/static/css/main.435d5fe5.chunk.css.map",
+    "static/media/logo.svg": "/ai-health-app/static/media/logo.06e73328.svg"
+  }
+}
